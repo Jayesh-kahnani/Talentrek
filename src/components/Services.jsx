@@ -9,7 +9,6 @@ const Services = () => {
   // Initialize AOS for animations
   useEffect(() => {
     AOS.init({
-      once: true, // Only animate once
       duration: 800, // Animation duration
     });
   }, []);
@@ -17,7 +16,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="bg-champagne py-12 rounded-3xl mx-auto mb-3 w-5/6"
+      className="bg-champagne py-12 rounded-3xl mt-4 mx-auto mb-3 h-full w-5/6"
     >
       <div className="container mx-auto px-6">
         <h2

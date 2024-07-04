@@ -8,7 +8,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto my-8 p-6 bg-champagne rounded-3xl shadow-md">
+    <div id="contact" className="max-w-lg mx-auto my-8 p-6 bg-champagne rounded-3xl shadow-md">
       <h2 className="text-2xl font-bold mb-4 text-gray-800">Contact Us</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>

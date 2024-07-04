@@ -2,7 +2,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <section
+    <section id="team"
       className="mt-5 mx-auto mb-3 max-w-5xl rounded-3xl p-8 flex flex-col items-center bg-champagne"
     >
       <h2 data-aos="fade-up" className="text-3xl font-bold mb-8 text-gray-800">
@@ -12,7 +12,7 @@ const Team = () => {
         {/* Jayesh's Card */}
         <div className="w-80 bg-white rounded-3xl p-6 shadow-lg flex flex-col items-center">
           <img
-            src="/jayesh.jpeg"
+            src="/jayesh1.jpg"
             alt="Jayesh"
             className="rounded-full mb-4 w-32 h-32 object-cover"
           />

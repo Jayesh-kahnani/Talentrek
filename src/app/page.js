@@ -1,20 +1,21 @@
-"use client"
+"use client";
 import Navbar from "@/components/Navbar";
 import ContactForm from "@/components/ContactForm";
 import Team from "@/components/Team";
 import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>      <Services></Services>
+      <Navbar />
+      <Hero />      <Services id="services" />
 
-      <AboutUs></AboutUs>
-      <Team></Team>
+      <AboutUs />
+      <Team />      <ContactForm/>
 
-      <ContactForm />
-    <Footer></Footer>
+      <Footer />
     </>
   );
 }
