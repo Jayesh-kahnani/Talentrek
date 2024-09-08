@@ -1,0 +1,11 @@
+{
+    // Name this configuration
+    "name": "Talentrek codespace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot"
+            ]
+        }
+    }
+}
