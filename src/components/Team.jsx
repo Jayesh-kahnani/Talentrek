@@ -12,8 +12,8 @@ const Team = () => {
         {/* Jayesh's Card */}
         <div className="w-80 bg-white rounded-3xl p-6 shadow-lg flex flex-col items-center">
           <img
-            src="/jayesh1.jpg"
-            alt="Jayesh"
+            src="/"
+            alt=" Jayesh image"
             className="rounded-full mb-4 w-32 h-32 object-cover"
           />
           <h3 className="text-xl font-bold text-gray-800 mb-2">Jayesh</h3>
@@ -29,8 +29,8 @@ const Team = () => {
         {/* Rehaan's Card */}
         <div className="w-80 bg-white rounded-3xl p-6 shadow-lg flex flex-col items-center">
           <img
-            src="/rehaan.jpeg"
-            alt="Rehaan"
+            src="/"
+            alt=" Rehaan image"
             className="rounded-full mb-4 w-32 h-32 object-cover"
           />
           <h3 className="text-xl font-bold text-gray-800 mb-2">Rehaan</h3>
